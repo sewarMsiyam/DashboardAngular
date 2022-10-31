@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+:root,
+:root.light {
+  --bgcolor: #fff;
+  --textcolor: #000;
+  --sidecolor: #F7F7F7;
+  --darksidecolor: #dfdfdf;
+  --primaryred:#c9004e;
+  --darkprimaryred:#95003a;
+  --bgsocrool:#e1dede;
+  --socrolscolor:#888;
+  --zomonoff:#d2d2d2;
+  --bs-pagination-active-bg:#c9004e;
+}
+:root.dark {
+  --bgcolor: #050517;
+  --textcolor: #fff;
+  --sidecolor: #0C0C35;
+  --primaryred:#ff9dc3;
+  --darkprimaryred:#690029;
+  --darksidecolor: #060652;
+  --bgsocrool:#15154b;
+  --socrolscolor:#3d3d6c;
+  --zomonoff:#303046;
+  --bs-pagination-active-bg:#ff9dc3;
+
+}
+
+body,
+html {
+  background-color: var(--bgcolor);
+  color: var(--textcolor);
+}
+
+.btn {
+  color: inherit !important;
+}

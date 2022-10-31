@@ -1,0 +1,51 @@
+<div class="d-flex justify-content-between align-items-center p-2 bgcolornva mb-4">
+  <div>
+    <div class="d-block d-lg-none" (click)="showmenuesmool()" >
+      <i class="fa-sharp fa-solid fa-bars fs-1"></i>
+    </div>
+  </div>
+
+
+  <div class="d-flex align-items-center">
+    <div class="dropdown">
+      <a class="btn shadow-none dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fa-solid fa-bell fs-4"></i>
+      </a>
+
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
+
+    <div class="">
+      <button class="btn modecolor rounded-3" [hidden]="display" (click)="mode()" onclick="setTheme('dark')" title="Dark mode">
+        <i class="fa-solid fa-moon fs-4"></i>
+      </button>
+      <button class="btn modecolor rounded-3" [hidden]="display2" (click)="mode()" onclick="setTheme('light')" title="Light mode">
+        <i class="fa-solid fa-sun fs-4"></i>
+      </button>
+    </div>
+
+    <div class="dropdown">
+      <a class="d-flex align-items-center btn shadow-none dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        <img src="assets/imges/user.png" class="img-fluid user">
+        <div class="px-2">
+          <p class="m-0 fs-6">Sewar siyam</p>
+          <p class="m-0">Admin</p>
+        </div>
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">profile</a></li>
+        <li><a class="dropdown-item" href="#">logout</a></li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+
+
+

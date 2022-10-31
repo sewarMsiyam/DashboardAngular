@@ -1,0 +1,36 @@
+<a class="btn btn-primary" href="Table/DatatableApi/Create">Create new product</a>
+
+<table class = "table table-striped table-bordered">
+  <thead>
+      <tr>
+          <th>id</th>
+          <th>name</th>
+          <th>decription</th>
+          <th>price</th>
+      </tr>
+  </thead>
+  <tbody>
+
+      <tr *ngFor="let Product of Product;">
+          <td> {{ Product.id }} </td>
+          <td> {{ Product.name }} </td>
+          <td> {{ Product.price }} </td>
+          <td> {{ Product.description }} </td>
+          <td><img src="{{Product.photo}}"/></td>
+          <td>
+            <!-- <button type="button" class="btn btn-sm bg-secondary" (click)="editSkill(Skill)">
+              <i class="fas fa-pencil-alt"></i>
+              {{ "Edit" | localize }}
+            </button> -->
+            <button type="button" class="btn btn-sm bg-danger mx-2" (click)="delete(Product.id)">
+              <i class="fas fa-trash"></i>
+              Delete
+            </button>
+            <button type="button" class="btn btn-sm bg-primary mx-2" (click)="View(Product.id)">
+              <i class="fas fa-trash"></i>
+              View details
+            </button>
+          </td>
+      </tr>
+  </tbody>
+</table>

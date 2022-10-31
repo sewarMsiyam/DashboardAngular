@@ -1,0 +1,30 @@
+.table {
+  color: var(--textcolor);
+  vertical-align: top;
+  border-color: #9ba5b0d4;
+}
+
+
+.form-control {
+  background-color: #ffffff21;
+  border: 1px solid #ced4da;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: var(--primaryred) !important;
+  border-color: var(--primaryred) !important;
+}
+
+.form-select {
+  color: var(--textcolor);
+  background-color: #ffffff4a;
+  border: 1px solid #ced4da;
+}
+.active>.page-link, .page-link.active {
+  z-index: 3;
+  color: var(--bs-pagination-active-color);
+  background-color: var(--primaryred) !important;
+  border-color: var(--primaryred) !important;
+}

@@ -1,0 +1,12 @@
+.bg-sidebar{
+  background-color: var(--sidecolor);
+  width: 270px;
+  height: calc(100vh - 30px);
+  margin: 15px;
+  border-radius: 22px;
+  padding: 20px 0;
+}
+
+  .colorsbox{
+    width: 100px;
+  }

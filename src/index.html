@@ -1,13 +1,28 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
   <title>DashboardAngular</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/x-icon" href="assets/imges/logo.png">
 </head>
 <body>
   <app-root></app-root>
+
+
+
+  <!-- <div class="toggle-container">
+    <button class="theme-btn text-white light" onclick="setTheme('light')"title="Light mode">
+      <i class="bi bi-brightness-high-fill"></i>sssss
+    </button>
+    <button class="theme-btn text-white dark" onclick="setTheme('dark')" title="Dark mode">serrsada
+      <i class="bi bi-moon-stars-fill"></i>ss
+    </button>
+  </div> -->
+
+  <script>
+    const setTheme = theme => document.documentElement.className = theme;
+  </script>
 </body>
 </html>

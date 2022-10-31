@@ -1,0 +1,24 @@
+.bgcolornva{
+  background-color:var(--sidecolor);
+  border-radius: 20px;
+}
+.user{
+  width: 50px;
+}
+/* .fa-moon {
+	color: #f1c40f;
+}
+.fa-sun {
+	color: #f39c12;
+} */
+.colorsbox{
+  display: none;
+}
+.btn-check:focus+.btn, .btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.modecolor{
+  border: 1x solid var(--zomonoff);
+}
+

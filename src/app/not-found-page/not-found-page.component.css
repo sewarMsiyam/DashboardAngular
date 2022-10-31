@@ -1,0 +1,10 @@
+.lottie-img{
+  width: 50%;
+  margin: 0 auto;
+}
+.oops{
+  font-family: cursive;
+  font-size: 75px;
+  position: absolute;
+  transform: rotateZ(356deg);
+}

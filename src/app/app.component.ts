@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DashboardAngular';
+
+
+
+  // showsidebar = false;
+  // showmenuesmool() {
+  //   this.showsidebar = this.showsidebar;
+  //   console.log("showsidebar");
+  // }
+
+
+
 }

@@ -1,0 +1,11 @@
+<div class="side-menu scrol">
+
+  <ul class="p-0 m-0">
+    <li *ngFor="let Menue of MenueList$ |async">
+      <a routerLink={{Menue.path}} routerLinkActive="is-active">
+        <span><i class={{Menue.iconsolid}}></i></span>
+        <span class="px-1" [class.sm-side-menu]="colorsbox">{{Menue.items}}</span>
+      </a>
+    </li>
+  </ul>
+</div>

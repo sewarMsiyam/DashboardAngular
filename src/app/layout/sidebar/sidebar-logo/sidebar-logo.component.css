@@ -1,0 +1,26 @@
+.logo{
+width: 45px;
+}
+.logotext{
+  font-family: cursive ,'Courier New', Courier, monospace;
+  font-weight: bolder;
+  color: var(--primaryred);
+  font-size: 2.6rem;
+}
+.iconisolid{
+  font-size: 28px;
+  font-weight: lighter;
+  top:11%;
+  left: 88%;
+  background-color: var(--zomonoff);
+}
+
+.borderbottom{
+  border-bottom: 1px solid #b6a5a57a;
+  padding-bottom: 10px;
+}
+
+.sm-side-menu{
+  display: none;
+  transition: 1s all ease-out;
+}
